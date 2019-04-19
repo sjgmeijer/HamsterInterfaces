@@ -22,8 +22,9 @@ public class Main {
         Hamster terminatorHamster = new TerminatorHamster("Kratje", 34, 999, "TerminatorHamster", 120,4);
         Hamster eenVoetbalHamster = new nl.fhict.ovp2.VoetbalHamster("Luis Suárez", 46, "Tanden", 4, 2,560);
         Hamster eenYorickHamster = new YorickHamster(220, "YorickHamster", "Kapsalon", 493,234,493);
-        //hamsters toevoegen aan hamsterFarm
+        Hamster eenPokeFlute = new PokeFluteHamster("PokeFlute", 240,14, true, 20,"Yoricks");
 
+        //hamsters toevoegen aan hamsterFarm
         hamsterFarm.add(blossom);
         hamsterFarm.add(bubbles);
         hamsterFarm.add(buttercup);
@@ -35,7 +36,7 @@ public class Main {
         hamsterFarm.add(terminatorHamster);
         hamsterFarm.add(eenVoetbalHamster);
         hamsterFarm.add(eenYorickHamster);
-
+        hamsterFarm.add(eenPokeFlute);
 
         HamsterPrinter.print(hamsterFarm);
     }
